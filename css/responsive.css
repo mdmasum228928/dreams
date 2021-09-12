@@ -1,0 +1,84 @@
+@media (min-width: 0) and (max-width: 575.98px) {
+    .menu_item{
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+    }
+    .banner_headlin h1{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .banner_headlin p{
+        font-size: 10px;
+    }
+    .section_heading h2{
+        font-size: 15px;
+    }
+    .service_item{
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        grid-row-gap: 70px;
+    }
+    .left_heading h2{
+        font-size: 15px;
+    }
+    .left_heading p{
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    /* ========== expertense area starts =============== */
+    .expertense_area{
+        display: flex;
+    }
+    .left_expertense{
+        max-width: 100%;
+        padding-bottom: 87px;
+    }
+    .extension_item{
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+    }
+    .right_expertense{
+        min-width: 100%;
+        margin-left: 0%;
+    }
+    .sin_title p{
+        font-size: 10px;
+        margin-right: 40%;
+    }
+    .left_expertense a{
+        font-size: 10px;
+        padding: 13px 20px;
+        border-radius: 20px;
+    }
+    /* ========== expertense area ends =============== */
+    /* ========= portfolio area starts ======= */
+    .portfolio_area{
+        display: block;
+    }
+    .port_left{
+        max-width: 100%;
+    }
+    .port_right{
+        max-width: 100%;
+        margin-left: 0%;
+    }
+    .port_head p{
+        font-size: 14px;
+    }
+    .port_head h2{
+        font-size: 12px;
+    }
+    .port_title h4{
+        font-size: 14px;
+    }
+    .port_head p{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .port_head p:first-of-type{
+        margin-top: 34px;
+        margin-bottom: 25px;
+    }
+ }
