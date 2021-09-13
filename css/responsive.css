@@ -2,6 +2,9 @@
     #header{
         position: relative;
     }
+    .container{
+        background: ;
+    }
     .menu_item{
         display: block;
         background: rgba(0, 0, 0, 0.8);
@@ -104,4 +107,166 @@
         margin-top: 34px;
         margin-bottom: 25px;
     }
+        /* =========== product area starts ============ */
+    .prduct_area{
+        grid-template-columns: 1fr;
+    }
+    /* =========== product area ends ============ */
+        /* =========== about area starts =========== */
+    #about{
+        padding-bottom: 100px;
+    }
+    .about_area{
+        position: relative;
+    }
+    .sec_ab{
+        padding-bottom: 90px;
+    }
+    .about_area::after{
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 100%;
+        border-left: 2px solid #f1f1f1;
+        top: 0;
+        left: 50%;
+        z-index: -1;
+    }
+    /* left */
+    .left_about{
+        margin-right: 10px;
+    }
+    .left_img img{
+        margin-left: 10px;
+    }
+    .left_text{
+        text-align: right;
+    }
+    .left_text h4,
+    .right_text h4{
+        font-size: 8px;
+    }
+    .left_text p,
+    .right_text p{
+        font-size: 6px;
+        margin-top: 15px;
+    }
+    .left_img img,
+    .right_img img{
+        width: 50px;
+        height: 50px;
+    }
+    .left_img{
+        margin-right: -39px;
+        margin-top: 0px;
+    }
+    .right_img img{
+        margin-right: 10px;
+    }
+    /* right */
+    .right_about{
+        margin-left: 10px;
+    }
+    .right_img{
+        margin-left: -39px;
+        margin-top: 0px;
+    }
+    /* =========== about area ends ========== */
+
+        /* ====== awesome area starts======== */
+    .awesome_area{
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 60px;
+
+    }
+    .single_awe{
+        text-align: center;
+    }
+    .single_awe h4{
+        font-size: 14px;
+    }
+    .single_awe p{
+        font-size: 12px;
+    }
+    .awe_social a{
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .single_awe img{
+        max-width: 150px;
+        min-height: 150px;
+    }
+    .awe_footer{
+        font-size: 10px;
+        padding: 70px 0 105px 0px;
+    }
+    /* ====== awesome area ends ======== */
+    /* ========= footer area starts ============= */
+    #footer{
+        background: #111111;
+    }
+    .footer_area{
+        display: block;
+        flex-wrap: nowrap;
+        padding-top: 95px;
+        padding-bottom: 63px;
+        border-bottom: 1px solid #ffffff;
+    }
+    /* footer left */
+    .footer_left{
+        max-width: 100%;
+    }
+    .footer_headign h4{
+        font-size: 20px;
+    }
+    .footer_headign p{
+        font-size: 12px;
+    }
+    .sin_con{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .single_contact{
+        width: 100%;
+    }
+    .single_contact:first-child{
+        margin-right: 80px;
+    }
+    .single_contact a{
+        display: flex;
+    }
+    .single_contact i{
+        font-size: 14px;
+    }
+    .single_contact span{
+        font-size: 12px;
+    }
+    /* footer right */
+    .footer_right{
+        width: 100%;
+    }
+    .footer_right input[type=text],
+    .footer_right input[type=email]{
+        width: 80%;
+        padding: 5px;
+    }
+    .footer_right::placeholder{
+        font-size: 10px;
+    }
+    .footer_right textarea{
+        width: 80%;
+        padding: 5px;
+    }
+    .footer_right button{
+        padding: 8px 12px;
+        border-radius: 15px;
+        font-size: 8px;
+    }
+    .footer_bottom p{
+        font-size: 10px;
+    }
+    /* ========= footer area ends ============= */
+
  }
