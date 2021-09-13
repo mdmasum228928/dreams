@@ -1,3 +1,4 @@
+
 @media (min-width: 0) and (max-width: 575.98px) {
     #header{
         position: relative;
@@ -171,6 +172,10 @@
         margin-left: -39px;
         margin-top: 0px;
     }
+    .last_ab .left_img{
+        margin-left: 84%;
+        margin-bottom: -10px;
+    }
     /* =========== about area ends ========== */
 
         /* ====== awesome area starts======== */
@@ -270,3 +275,656 @@
     /* ========= footer area ends ============= */
 
  }
+ /* =================== media max width 575px area ends ======================== */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    #header{
+        position: relative;
+    }
+    .menu_item{
+        display: block;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        position: absolute;
+        right: 0;
+        line-height: 40px;
+        top: 65px;
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+    }
+    .menu ul{
+        display: block;
+    }
+    .menu ul li{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .menu ul a{
+        margin-right: 0px;
+        padding: 20px;
+    }
+    .menu{
+        display: block;
+    }
+    .banner_headlin h1{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .banner_headlin p{
+        font-size: 10px;
+    }
+    .section_heading h2{
+        font-size: 15px;
+    }
+    .service_item{
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        grid-row-gap: 70px;
+    }
+    .left_heading h2{
+        font-size: 15px;
+    }
+    .left_heading p{
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    /* ========== expertense area starts =============== */
+    .expertense_area{
+        display: flex;
+    }
+    .left_expertense{
+        max-width: 100%;
+        padding-bottom: 87px;
+    }
+    .extension_item{
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+    }
+    .right_expertense{
+        min-width: 100%;
+        margin-left: 0%;
+    }
+    .sin_title p{
+        font-size: 10px;
+        margin-right: 40%;
+    }
+    .left_expertense a{
+        font-size: 10px;
+        padding: 13px 20px;
+        border-radius: 20px;
+    }
+    /* ========== expertense area ends =============== */
+    /* ========= portfolio area starts ======= */
+    .portfolio_area{
+        display: block;
+    }
+    .port_left{
+        max-width: 100%;
+    }
+    .port_right{
+        max-width: 100%;
+        margin-left: 0%;
+    }
+    .port_head p{
+        font-size: 14px;
+    }
+    .port_head h2{
+        font-size: 12px;
+    }
+    .port_title h4{
+        font-size: 14px;
+    }
+    .port_head p{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .port_head p:first-of-type{
+        margin-top: 34px;
+        margin-bottom: 25px;
+    }
+        /* =========== product area starts ============ */
+    .prduct_area{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* =========== product area ends ============ */
+        /* =========== about area starts =========== */
+    #about{
+        padding-bottom: 100px;
+    }
+    .about_area{
+        position: relative;
+    }
+    .sec_ab{
+        padding-bottom: 90px;
+    }
+    .about_area::after{
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 100%;
+        border-left: 2px solid #f1f1f1;
+        top: 0;
+        left: 50%;
+        z-index: -1;
+    }
+    /* left */
+    .left_about{
+        margin-right: 10px;
+    }
+    .left_img img{
+        margin-left: 10px;
+    }
+    .left_text{
+        text-align: right;
+    }
+    .left_text h4,
+    .right_text h4{
+        font-size: 8px;
+    }
+    .left_text p,
+    .right_text p{
+        font-size: 6px;
+        margin-top: 15px;
+    }
+    .left_img img,
+    .right_img img{
+        width: 50px;
+        height: 50px;
+    }
+    .left_img{
+        margin-right: -39px;
+        margin-top: 0px;
+    }
+    .right_img img{
+        margin-right: 10px;
+    }
+    /* right */
+    .right_about{
+        margin-left: 10px;
+    }
+    .right_img{
+        margin-left: -39px;
+        margin-top: 0px;
+    }
+    .last_ab .left_img{
+        margin-left: 90%;
+    }
+    /* =========== about area ends ========== */
+
+        /* ====== awesome area starts======== */
+    .awesome_area{
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 60px;
+
+    }
+    .single_awe{
+        text-align: center;
+    }
+    .single_awe h4{
+        font-size: 14px;
+    }
+    .single_awe p{
+        font-size: 12px;
+    }
+    .awe_social a{
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .single_awe img{
+        max-width: 150px;
+        min-height: 150px;
+    }
+    .awe_footer{
+        font-size: 10px;
+        padding: 70px 0 105px 0px;
+    }
+    /* ====== awesome area ends ======== */
+    /* ========= footer area starts ============= */
+    #footer{
+        background: #111111;
+    }
+    .footer_area{
+        display: block;
+        flex-wrap: nowrap;
+        padding-top: 95px;
+        padding-bottom: 63px;
+        border-bottom: 1px solid #ffffff;
+    }
+    /* footer left */
+    .footer_left{
+        max-width: 100%;
+    }
+    .footer_headign h4{
+        font-size: 20px;
+    }
+    .footer_headign p{
+        font-size: 12px;
+    }
+    .sin_con{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .single_contact{
+        width: 100%;
+    }
+    .single_contact:first-child{
+        margin-right: 80px;
+    }
+    .single_contact a{
+        display: flex;
+    }
+    .single_contact i{
+        font-size: 14px;
+    }
+    .single_contact span{
+        font-size: 12px;
+    }
+    /* footer right */
+    .footer_right{
+        width: 100%;
+    }
+    .footer_right input[type=text],
+    .footer_right input[type=email]{
+        width: 80%;
+        padding: 5px;
+    }
+    .footer_right::placeholder{
+        font-size: 10px;
+    }
+    .footer_right textarea{
+        width: 80%;
+        padding: 5px;
+    }
+    .footer_right button{
+        padding: 8px 12px;
+        border-radius: 15px;
+        font-size: 8px;
+    }
+    .footer_bottom p{
+        font-size: 10px;
+    }
+    /* ========= footer area ends ============= */
+
+ }
+ /* ======================= max-width 767px ends =============== */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    #header{
+        position: relative;
+    }
+    .menu_item{
+        display: block;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        position: absolute;
+        right: 0;
+        line-height: 40px;
+        top: 65px;
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+    }
+    .menu ul{
+        display: block;
+    }
+    .menu ul li{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .menu ul a{
+        margin-right: 0px;
+        padding: 20px;
+    }
+    .menu{
+        display: block;
+    }
+    .banner_headlin h1{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .banner_headlin p{
+        font-size: 10px;
+    }
+    /* service area */
+    .service_item{
+        grid-column-gap: 30px;
+    }
+    .single_service img{
+        width: 40px;
+        height: 30px;
+        margin-bottom: 40px;
+    }
+    .single_service h3{
+        font-size: 14px;
+    }
+    .single_service p{
+        font-size: 10px;
+    }
+    /* service area ends */
+    .section_heading h2{
+        font-size: 15px;
+    }
+    .left_heading h2{
+        font-size: 15px;
+    }
+    .left_heading p{
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    /* ========= portfolio area starts ======= */
+    .portfolio_area{
+        display: block;
+    }
+    .port_left{
+        max-width: 100%;
+    }
+    .port_right{
+        max-width: 100%;
+        margin-left: 0%;
+    }
+    .port_head p{
+        font-size: 14px;
+    }
+    .port_head h2{
+        font-size: 12px;
+    }
+    .port_title h4{
+        font-size: 14px;
+    }
+    .port_head p{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .port_head p:first-of-type{
+        margin-top: 34px;
+        margin-bottom: 25px;
+    }
+        /* =========== product area starts ============ */
+    .prduct_area{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* =========== product area ends ============ */
+        /* =========== about area starts =========== */
+    #about{
+        padding-bottom: 100px;
+    }
+    .about_area{
+        position: relative;
+    }
+    .sec_ab{
+        padding-bottom: 90px;
+    }
+    .about_area::after{
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 100%;
+        border-left: 2px solid #f1f1f1;
+        top: 0;
+        left: 50%;
+        z-index: -1;
+    }
+    /* left */
+    .left_about{
+        margin-right: 10px;
+    }
+    .left_img img{
+        margin-left: 10px;
+    }
+    .left_text{
+        text-align: right;
+    }
+    .left_text h4,
+    .right_text h4{
+        font-size: 15px;
+    }
+    .left_text p,
+    .right_text p{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .left_img img,
+    .right_img img{
+        width: 100px;
+        height: 100px;
+    }
+    .left_img{
+        margin-right: -60px;
+        margin-top: 0px;
+    }
+    .right_img img{
+        margin-right: 10px;
+    }
+    /* right */
+    .right_about{
+        margin-left: 10px;
+    }
+    .right_img{
+        margin-left: -60px;
+        margin-top: 0px;
+    }
+    .last_ab .left_img{
+        margin-left: 84%;
+    }
+    /* =========== about area ends ========== */
+
+        /* ====== awesome area starts======== */
+    .awesome_area{
+        grid-column-gap: 30px;
+        padding-top: 50px;
+
+    }
+    .single_awe{
+        text-align: center;
+    }
+    .single_awe h4{
+        font-size: 14px;
+    }
+    .single_awe p{
+        font-size: 12px;
+    }
+    .awe_social a{
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .single_awe img{
+        max-width: 120px;
+        min-height: 120px;
+    }
+    .awe_footer{
+        font-size: 12px;
+        padding: 70px 0 105px 0px;
+    }
+    /* ====== awesome area ends ======== */
+    /* ========= footer area starts ============= */
+    #footer{
+        background: #111111;
+    }
+    .footer_area{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 95px;
+        padding-bottom: 63px;
+        border-bottom: 1px solid #ffffff;
+    }
+    /* footer left */
+    .footer_left{
+        max-width: 45%;
+        margin-right: 10%;
+    }
+   .footer_headign h4{
+       font-size: 20px;
+   }
+   .footer_headign p{
+    font-size: 12px;
+    }
+    .single_contact{
+        width: 100%;
+    }
+    .single_contact a{
+        margin-bottom: 20px;
+    }
+    .single_contact i{
+        font-size: 14px;
+    }
+    .single_contact span{
+        font-size: 12px;
+    }
+    /* footer right */
+    .footer_right{
+        width: 45%;
+    }
+    
+    .footer_right::placeholder{
+        font-size: 12px;
+    }
+    .footer_right textarea{
+        padding: 10px;
+    }
+    .footer_right input[type=text],
+    .footer_right input[type=email]{
+        padding: 5px;
+    }
+    .footer_right button{
+        padding: 8px 12px;
+        border-radius: 15px;
+        font-size: 8px;
+    }
+    .footer_bottom p{
+        font-size: 14px;
+    }
+    /* ========= footer area ends ============= */
+
+ }
+ /* ================ max width 991px area ends ======= */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+    #header{
+        position: relative;
+    }
+    .menu_item{
+        display: block;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        position: absolute;
+        right: 0;
+        line-height: 40px;
+        top: 65px;
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+    }
+    .menu ul{
+        display: block;
+    }
+    .menu ul li{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .menu ul a{
+        margin-right: 0px;
+        padding: 20px;
+    }
+    .menu{
+        display: block;
+    }
+    .banner_headlin h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    /* ========= portfolio area starts ======= */
+    .port_head p{
+        font-size: 10px;
+    }
+    .port_head h2{
+        font-size: 30px;
+    }
+    .port_title h4{
+        font-size: 12px;
+    }
+
+
+        /* ====== awesome area starts======== */
+    .awesome_area{
+        padding-top: 50px;
+
+    }
+   
+    .awe_social a{
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .single_awe img{
+        max-width: 180px;
+        min-height: 180px;
+    }
+    .awe_footer{
+        font-size: 15px;
+        padding: 70px 0 105px 0px;
+        margin: 0 50px;
+    }
+    /* ====== awesome area ends ======== */
+    /* ========= footer area starts ============= */
+    #footer{
+        background: #111111;
+    }
+    .footer_area{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 95px;
+        padding-bottom: 63px;
+        border-bottom: 1px solid #ffffff;
+    }
+    /* footer left */
+    .footer_left{
+        max-width: 45%;
+        margin-right: 10%;
+    }
+   .footer_headign h4{
+       font-size: 20px;
+   }
+   .footer_headign p{
+    font-size: 12px;
+    }
+    .single_contact{
+        width: 100%;
+    }
+    .single_contact a{
+        margin-bottom: 20px;
+    }
+    .single_contact i{
+        font-size: 14px;
+    }
+    .single_contact span{
+        font-size: 12px;
+    }
+    /* footer right */
+    .footer_right{
+        width: 45%;
+    }
+    
+    .footer_right::placeholder{
+        font-size: 12px;
+    }
+    .footer_right textarea{
+        padding: 10px;
+    }
+    .footer_right input[type=text],
+    .footer_right input[type=email]{
+        padding: 5px;
+    }
+    .footer_right button{
+        padding: 8px 12px;
+        border-radius: 15px;
+        font-size: 8px;
+    }
+    .footer_bottom p{
+        font-size: 14px;
+    }
+    /* ========= footer area ends ============= */
+
+ }
+ /* ============= max widtth 1199px area ends ======= */
